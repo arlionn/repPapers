@@ -6,6 +6,7 @@
 ## 控制变量-bad controls
 
 - Clist, Paul (2025): The Common Problem of Bad Controls in Tests of the Linguistic Savings Hypothesis (Replication File). Version: 1.0. JCRE. Dataset. https://doi.org/10.15456/j1.2025224.1531306214
+  - [Stata codes](https://doi.org/10.15456/j1.2025224.1531306214)
 
 
 ## IV
@@ -29,8 +30,14 @@
 
 ## 复现类论文
 
-- Nunn & Wantchekon (2011) detect a long-lasting impact of the slave trade on current trust levels across
+- Zanella, G. (2025). The Slave Trade and the Origins of Mistrust in Africa. A Replication Study of Nunn and Wantchekon (2011). Journal of Comments and Replications in Economics, 2025–2021. [Link](https://doi.org/10.18718/81781.40), [PDF](http://sci-hub.ren/10.18718/81781.40), [Google](<https://scholar.google.com/scholar?q=The Slave Trade and the Origins of Mistrust in Africa. A Replication Study of Nunn and Wantchekon (2011)>). [Replication](https://doi.org/10.15456/j1.2025049.0911138519) (Stata codes) 
+  - Nunn & Wantchekon (2011) detect a long-lasting impact of the slave trade on current trust levels across
 ethnic groups in Africa. They use data from Afrobarometer’s wave 3 to construct trust measures. While I
 can perfectly replicate the original OLS and 2SLS findings in this wave starting from the same raw data,
 using data from more recent waves which were collected after the paper was published, I fail to replicate
 some of the paper’s central findings. Plausible explanations are discussed
+
+- [Why don't Firms Hire Young Workers during Recessions? A Replication of Forsythe (The Economic Journal, 2022)](https://jcr-econ.org/why-dont-firms-hire-young-workers-during-recessions-replication/)
+Jonathan Créchet, Jing Cui, Barbara Sadaba and Antoine Sawyer
+*Journal of Comments and Replications in Economics, Vol.4, 2025-4*. DOI: [10.18718/81781.43](https://doi.org/10.18718/81781.43).
+The Stata code and data are available [»here](https://doi.org/10.15456/j1.2025210.1943358304).

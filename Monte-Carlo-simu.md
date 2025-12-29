@@ -1,0 +1,4 @@
+
+
+- Santos Silva, J. M. C., & Tenreyro, S. (2011). Further simulation evidence on the performance of the Poisson pseudo-maximum likelihood estimator. Economics Letters, 112(2), 220–222. [Link](https://doi.org/10.1016/j.econlet.2011.05.008), [PDF](http://sci-hub.ren/10.1016/j.econlet.2011.05.008), [Google](<https://scholar.google.com/scholar?q=Further simulation evidence on the performance of the Poisson pseudo-maximum likelihood estimator>). 
+  - We extend the simulation results in Santos Silva and Tenreyro ([2006](https://personal.lse.ac.uk/TENREYRO/jensen08k.pdf), The log of gravity, The Review of Economics and Statistics, 88, 641-658) by considering a novel data-generating process. Our results confirm that the Poisson pseudo-maximum likelihood estimator is generally well behaved, even when the proportion of zeros in the sample is very large.

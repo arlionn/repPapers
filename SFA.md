@@ -1,0 +1,10 @@
+## SFA 内生性问题
+- Hou, Z., Ramalho, J. J. S., & Roseta-Palma, C. (2025). Dealing with endogeneity in stochastic frontier models: A comparative assessment of estimators. Energy Economics, 151, 108922. [Link](https://doi.org/10.1016/j.eneco.2025.108922) (rep), [PDF](http://sci-hub.ren/10.1016/j.eneco.2025.108922), [Google](<https://scholar.google.com/scholar?q=Dealing with endogeneity in stochastic frontier models: A comparative assessment of estimators>). [Replication](https://ars.els-cdn.com/content/image/1-s2.0-S0140988325007492-mmc1.zip).
+  - 内生性问题是随机前沿分析面临的一大挑战，原因在于投入要素的选择可能与误差项中不可观测的成分存在内生关联，进而导致效率估计值出现偏误。本文对比了目前主流的内生性处理估计方法，包括控制函数估计法（Kutlu, 2010）、广义矩估计法（GMM）（Tran & Tsionas, 2013）、Copula 方法（Tran & Tsionas, 2015），以及基于工具变量的极大似然估计法（Karakaplan & Kutlu, 2017a, b；Karakaplan, 2022）。蒙特卡洛模拟结果表明，不同方法存在明显的偏差 - 方差权衡特征：基于似然函数的估计方法能够得到更为精确的效率值，而广义矩估计法与 Copula 方法则在特定情境下具备应用优势。本文以 2006—2021 年葡萄牙火电行业为样本开展实证分析，结果显示，控制内生性会显著改变系数估计结果与效率分布特征。上述结论证实，估计方法的选择会对效率值、成本绩效影响因素等具有政策参考意义的指标产生作用。尽管本研究存在数据方面的局限性，但仍强调了在内生性处理中的核心重要性，并为应用型效率分析提供了方法论层面的指导。
+  - `IntegratedMonteCarlo.R` is the R script integrating the Monte Carlo simulation for the naive model, the control function model, the GMM model and the copula model.
+  - `MonteCarloSimLog.txt` is the result of simulation.
+  - `xtsfkkMonteCarlo.do` is the Stata script to implement Monte Carlo simulation for the xtsfkk estimator. The parameters including endogeneity level and iv strength can be adjusted in the script.
+  - `EmpiricalApplication.R` is the R script that implement the empirical application for he naive model, the control function model, the GMM model and the copula model.
+  - `EmpiricalApplicationLog.txt` is the log file resulting from the R script above.
+  - `revisesfkk02a.txt` is the Stata log file applying the xtsfkk estimator to real data.
+  The empirical applications are run on the external server of the BPLIM database. The following page contains the information on how to get access to the database: https://msites-dee-bplim-prd.azurewebsites.net/content/access-0
